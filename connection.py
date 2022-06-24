@@ -7,3 +7,4 @@ c.execute('select * from DUAL') # use triple quotes if you want to spread your q
 for row in c:
     print (row[0]) # this only shows the first two columns. To add an additional column you'll need to add , '-', row[2], etc.
 #conn.close()
+#this is another change
